@@ -149,3 +149,7 @@ type User @key(fields: "id") {
 #type Subscription {
 #ADD SUBSCRIPTION FIELDS AND RETURN TYPES HERE
 #}
+
+type Subscription { 
+  reviewAdded: Review
+}
